@@ -27,7 +27,7 @@ Home = "https://github.com/Iaio99/set-iptables"
 Source = "https://github.com/Iaio99/set-iptables"
 
 [project.scripts]
-set-iptables = "set-iptables:run_as_a_module"
+set-iptables = "set-iptables:main"
 
 [project.optional-dependencies]
 doc = ["sphinx"]
